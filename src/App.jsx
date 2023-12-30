@@ -6,10 +6,10 @@ function App() {
 
 
   return (
-    <div className=" h-screen w-screen bg-cover bg-no-repeat  bg-[url('./assets/stars.jpg')] flex justify-center items-center" >
-      <div className='md:bg-customBlueGray w-4/5 md:h-4/5 sm:h-3/5 bg-opacity-80 flex justify-center items-center '>
-        <div className='w-full md:w-1/2 lg:w-1/4 h-full md:h-4/5 bg-customWhite rounded-xl'>
-          <div className='flex-col h-full' >
+    <div className=" min-h-screen min-w-screen bg-cover bg-no-repeat bg-center  bg-[url('./assets/mountain.jpg')] flex justify-center items-center overflow-hidden" >
+      <div className='lg:bg-customBlueGray w-4/5 lg:h-[500px]  flex justify-center items-center '>
+        <div className=' md:w-1/2 lg:w-1/4  h-4/5 bg-customWhite rounded-xl'>
+          <div className='flex-col ' >
             <div className='p-3  overflow-hidden flex items-center justify-center'>
               <img src={qrCode} alt="qrCode" className='rounded-xl object-scale-down  ' />
             </div>

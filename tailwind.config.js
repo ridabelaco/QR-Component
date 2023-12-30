@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        customBlueGray: 'hsl(220, 15%, 55%)',
+        customBlueGray: 'hsl(220, 15%, 55%, 0.8)',
         customWhite: 'hsl(0, 0%, 100%)',
         customGray: 'hsl(212, 45%, 89%)', 
       },
